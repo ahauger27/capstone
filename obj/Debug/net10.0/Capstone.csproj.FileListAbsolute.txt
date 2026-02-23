@@ -1,0 +1,14 @@
+D:\Coding\my-projects\Capstone\bin\Debug\net10.0\Capstone.exe
+D:\Coding\my-projects\Capstone\bin\Debug\net10.0\Capstone.deps.json
+D:\Coding\my-projects\Capstone\bin\Debug\net10.0\Capstone.runtimeconfig.json
+D:\Coding\my-projects\Capstone\bin\Debug\net10.0\Capstone.dll
+D:\Coding\my-projects\Capstone\bin\Debug\net10.0\Capstone.pdb
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.AssemblyInfoInputs.cache
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.AssemblyInfo.cs
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.csproj.CoreCompileInputs.cache
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.dll
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\refint\Capstone.dll
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.pdb
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\Capstone.genruntimeconfig.cache
+D:\Coding\my-projects\Capstone\obj\Debug\net10.0\ref\Capstone.dll
