@@ -7,6 +7,7 @@ public class Patron
     public string FirstName { get; private set; } = string.Empty;
     public string LastName { get; private set; } = string.Empty;
     public string MiddleInitial { get; private set; }
+    public DateTime DOB { get; private set; }
     public List<IItem> ActiveLoans { get; set; } = [];
 
     
@@ -31,7 +32,7 @@ public class Patron
 
     public void DisplayPatronName()
     {
-        Console.WriteLine($"Patron Name: {FullName()}");
+        Console.WriteLine($"{Environment.NewLine}Patron Name: {FullName()}");
     }
 
     public void DisplayActiveLoans()

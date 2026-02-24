@@ -8,24 +8,25 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\auhau\\.nuget\\packages\\": {}
+    "/home/austin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\my-projects\\Capstone\\Capstone.csproj",
+      "projectUniqueName": "/home/austin/Projects/git-repos/capstone/Capstone.csproj",
       "projectName": "Capstone",
-      "projectPath": "D:\\Coding\\my-projects\\Capstone\\Capstone.csproj",
-      "packagesPath": "C:\\Users\\auhau\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\my-projects\\Capstone\\obj\\",
+      "projectPath": "/home/austin/Projects/git-repos/capstone/Capstone.csproj",
+      "packagesPath": "/home/austin/.nuget/packages/",
+      "outputPath": "/home/austin/Projects/git-repos/capstone/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\auhau\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/austin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
