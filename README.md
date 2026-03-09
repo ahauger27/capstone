@@ -8,5 +8,5 @@ todo
 
 AI use
 maybe I'll use AI to gather information about the "patrons" to gather information such as:
-1. dob
-2. 
+1. need to add circulation service classes
+2. need books

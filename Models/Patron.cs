@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography;
 
 namespace Capstone.Models;
 
@@ -7,15 +8,16 @@ public class Patron
     public string FirstName { get; private set; } = string.Empty;
     public string LastName { get; private set; } = string.Empty;
     public string MiddleInitial { get; private set; }
-    public DateTime DOB { get; private set; }
+    public DateTime DateOfBirth { get; set; }
     public List<IItem> ActiveLoans { get; set; } = [];
 
     
-    public Patron(string firstName, string lastName, string middleInitial = "")
+    public Patron(string firstName, string lastName, DateTime dob, string middleInitial = "")
     {
         FirstName = firstName;
         MiddleInitial = middleInitial;
         LastName = lastName;
+        DateOfBirth = dob;
     }
 
     public string FullName()
@@ -28,6 +30,11 @@ public class Patron
         {
             return $"{FirstName} {MiddleInitial} {LastName}";
         }
+    }
+    public int DisplayAge()
+    {
+        DateTime dateNow = DateTime.Now;
+        return dateNow.Year - DateOfBirth.Year;
     }
 
     public void DisplayPatronName()
