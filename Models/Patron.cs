@@ -1,5 +1,4 @@
 using System;
-using System.Security.Cryptography;
 
 namespace Capstone.Models;
 
@@ -37,20 +36,25 @@ public class Patron
         return dateNow.Year - DateOfBirth.Year;
     }
 
-    public void DisplayPatronName()
+    public string PrintPatronName()
     {
-        Console.WriteLine($"{Environment.NewLine}Patron Name: {FullName()}");
+        return $"{FullName()}";
     }
 
     public void DisplayActiveLoans()
     {
         if (ActiveLoans.Count == 0)
         {
-            Console.WriteLine($"{FullName()} has no current loans.");
+            Console.WriteLine($"{PrintPatronName()} has no current loans.");
         }
         else
         {
-            Console.WriteLine($"{FullName}'s current loans:");
+            Console.WriteLine($"{PrintPatronName()}'s current loans:");
+            foreach (IItem item in ActiveLoans)
+            {
+                Console.WriteLine($"-{item.Title}");
+
+            }
         }
     }
 }

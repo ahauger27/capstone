@@ -40,14 +40,23 @@ namespace Capstone
                 new Patron(firstName : "Jan", lastName : "Levinson", dob : new DateTime(1967, 12, 5))
             };
 
-            List<IItem> books = new List<IItem>()
+            List<IItem> itemList = new List<IItem>()
             {
-                new Book(title: "The Alchemist", author: "Paulo Coelho", genre: Collection.Fiction, format: BookFormat.Hardcover),
-                new Book(title: "The Great Gatsby", author: "F. Scott Fitzgerald", genre: Collection.Fiction, format: BookFormat.Paperback),
-                new Book(title: "To Kill a Mockingbird", author: "Harper Lee", genre: Collection.Fiction, format: BookFormat.Audiobook),
-                new Book(title: "The Catcher in the Rye", author: "J.D. Salinger", genre: Collection.Fiction, format: BookFormat.LargeType),
-                new Book(title: "1984", author: "George Orwell", genre: Collection.ScienceFiction, format: BookFormat.eBook),
+                new Book(title: "The Alchemist", author: "Paulo Coelho", genre: Collection.Fiction, format: Format.Hardcover),
+                new Book(title: "The Great Gatsby", author: "F. Scott Fitzgerald", genre: Collection.Fiction, format: Format.Paperback),
+                new Book(title: "To Kill a Mockingbird", author: "Harper Lee", genre: Collection.Fiction, format: Format.Audiobook),
+                new Book(title: "The Catcher in the Rye", author: "J.D. Salinger", genre: Collection.Fiction, format: Format.LargeType),
+                new Book(title: "1984", author: "George Orwell", genre: Collection.ScienceFiction, format: Format.eBook),
+                new Book(title: "Fahrenheit 451", author: "Ray Bradbury", genre: Collection.ScienceFiction, format: Format.Paperback)
             };
+
+
+            Circulation.CheckOutItem(patronList[1], itemList[0]);
+            Circulation.CheckOutItem(patronList[3], itemList[0]);
+
+            patronList[1].DisplayActiveLoans();
+        }
+            /*
 
             while (run.RunStatus == true)
             {
@@ -78,7 +87,7 @@ namespace Capstone
                 } 
             }
         }
-
+        */
     public static void ListAllPatrons(List<Patron> patronList)
         {
             Console.WriteLine($"{Environment.NewLine}Patrons:");

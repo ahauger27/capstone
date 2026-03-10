@@ -13,7 +13,7 @@ public enum Collection
     Romance,
 }
 
-public enum BookFormat
+public enum Format
 {
     Hardcover,
     Paperback,
