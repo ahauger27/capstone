@@ -1,5 +1,4 @@
-This app simulates a Library Management System.
-Containing Patron Accounts, Item Records, processes
+This app simulates a Library Management System, with Patron accounts, Item Records, and Circulation Services.
 
 todo
 1. make more robust menu of options
